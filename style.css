@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+html,body{
+    height: 100vh;
+}
+.minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+}
+.bounding {
+    width: fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.bounding .boundingelem {
+    transform: translateY(100%);
+}
+.main{
+    width:100%;
+    background-color: black;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+h3{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 200;
+}
+.heading{
+    margin-top: 5vw;
+    line-height: .9;
+    margin-left: 50px;
+    text-transform: uppercase;
+    opacity: 0.6;
+
+}
+.heading h1{
+    font-size: 10vw;
+    font-weight: 530;
+}
+.heading #secondh1{
+    margin-left: 130px;
+}
+.heading h5 {
+    margin-top: 1vw;
+    font-size: 20px;
+    font-weight: 100;
+}
+.blocktext {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+    color: #fff;
+
+
+
+}
+.blocktext h5{
+    font-size: 1vw;
+    color: #fff;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.smallheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 110px;
+    padding: 50px;
+    line-height: 1.5;
+    /* margin-bottom: 20px; */
+
+}
+.smallheadings h5{
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 7px;
+    font-size: 1.1vw;
+    color: #fff;
+}
+.homefooter{
+    padding: 0 1vw;
+    width: 90%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.homefooter a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1vw;
+    text-transform: uppercase;
+
+}
+.homefooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+}
+.homefooter .iconset{
+    display: flex;
+    align-items: end;
+}
+.second{
+    margin-top: 20vw;
+    margin-bottom: -6vw;
+    margin-left: 3vw;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    border-top: 1px solid #888;
+}
+.elem h4 {
+    font-size: 10px;
+    color: #888;
+}
+.elem h1{
+    padding: 2vw .5vw;
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-weight: 540;
+    color: #888;
+}
+.elemlast{
+    width: 100%;
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    height: 170%;
+    opacity: 0;
+    position: absolute;
+    z-index: 99999;
+    margin-top: -10%;
+}
+.about{
+    margin-top: 0.1vw;
+    padding: 10vw 10vw;
+    padding-left: 35vw;
+    /* padding-right: 20vw; */
+    gap:  50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.about img {
+    /* position: absolute; */
+    width: 250px;
+}
+.about .textabout{
+    width: 20rem;
+    color: #fff;
+}
+.textabout h5{
+    color: #888;
+}
+.textabout p {
+    margin-top: 10px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.textabout a{
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 12px 22px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.subscribe{
+    line-height: 1.8;
+    padding: 20px 40px;
+    padding-bottom: 50px;
+}
+.subscribe h5{
+    background-color: black;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.subscribe h3{
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-bottom: 5vw;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerleft{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 15px;
+    font-weight: 50;
+    padding: 20px 40px;
+    text-transform: uppercase;
+}
+
+.footerright{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 40px;
+}
+.footerright a{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
